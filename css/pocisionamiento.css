@@ -1,0 +1,23 @@
+.box{
+    display: inline-block; /*controla estructuras--display: block está por default*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+}
+
+#three{
+    position: absolute;/*hay 5 position: absolute--etiqueta ancestro más cercano; relative-- se mueve locamente;fixed-- al nav; sticky--regresa;*/
+    top: 20px;
+    left: 20px;
+    background: rgb(89, 54, 143);
+}
+
+.texto1{
+    text-align: center;
+    overflow: scroll;
+    width: 500px;
+    height: 400px;
+    /*overflow: visible, hidden, scroll,auto*/
+    padding-left: 150px /*espacio entre contenido y borde*/
+}
